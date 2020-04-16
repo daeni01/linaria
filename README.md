@@ -46,6 +46,22 @@ or
 yarn add linaria
 ```
 
+## Status Note
+
+Recently @Anber was working on a new evaluation strategy called _shaker_. The goal was to make Linaria more flexible and reliable.
+
+All work regarding shaker had been releasing with `1.4.0` tag, currently in `beta` stage.
+
+Meanwhile, we wanted to introduce some breaking changes, so we decided to release `2.0.0` in `alpha` stage.
+
+All `1.4.x` work can be found on [`1.4.x` branch](https://github.com/callstack/linaria/tree/1.4.x)
+
+Current `master` branch contains work that is planned to be released as `2.0.0`. It is a continuation of `1.4.x` but with some breaking changes. You can track progress on new major version in [`2.0.0` milestone](https://github.com/callstack/linaria/milestone/7). 
+
+We will release stable `1.4.0` once we finnish _shaker_ effort. **Documentation** for `1.4.x` can be found on [`1.4.x` branch](https://github.com/callstack/linaria/tree/1.4.x)
+
+We will release stable `2.0.0` just after stable `1.4.0` but with breaking changes documented in [`2.0.0` migration guide](docs/2.0_MIGRATION_GUIDE.md)
+
 ## Setup
 
 Linaria currently supports webpack and Rollup to extract the CSS at build time. To configure your bundler, check the following guides:
